@@ -1,0 +1,26 @@
+[
+    {
+        "username": "admin",
+        "password": "123",
+        "role": "Quản Lý",
+        "permission": true
+    },
+    {
+        "username": "nhanvien1",
+        "password": "admin",
+        "role": "Thủ Thư",
+        "permission": false
+    },
+    {
+        "username": "nhanvien2",
+        "password": "1",
+        "role": "Thủ Thư",
+        "permission": false
+    },
+    {
+        "username": "admin2",
+        "password": "1",
+        "role": "Quản Lý",
+        "permission": true
+    }
+]
