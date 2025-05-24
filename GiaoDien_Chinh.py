@@ -132,16 +132,12 @@ class GiaoDienChinh(tk.Frame):
         GiaoDienQuanLyNguoiDung(win)
         
     def mo_muon_tra(self):
-        """Placeholder cho mượn/trả sách"""
+        """Mở giao diện mượn/trả sách"""
         self.xoa_noi_dung_chinh()
-        Label(
-            self.khungChinh,
-            text="📖 Chức năng Mượn/Trả sách\n(Đang phát triển)",
-            font=("Arial", 16),
-            bg="white",
-            fg="#9b59b6",
-            pady=100
-        ).pack()
+    
+        # Import và tạo giao diện mượn/trả sách
+        from GiaoDien_MuonTra import GiaoDienMuonTra
+        GiaoDienMuonTra(self.khungChinh)
         
     def mo_bao_cao(self):
         """Placeholder cho báo cáo"""

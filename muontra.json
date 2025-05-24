@@ -1,0 +1,28 @@
+[
+    {
+        "maKhach": "01",
+        "tenKhach": "Nguyen Van A",
+        "soDienThoai": "0123456789",
+        "email": "NguyenVanA@gmail.com",
+        "diaChi": "So 38, Yen Lang, Dong Da, Ha Noi",
+        "IDSach": "01",
+        "tenSach": "Quản Lý Thư Viện",
+        "ngayMuon": "2025-05-24",
+        "ngayTra": "2025-06-07",
+        "trangThai": "Đang mượn",
+        "phat": 0
+    },
+    {
+        "maKhach": "02",
+        "tenKhach": "ad",
+        "soDienThoai": "da",
+        "email": "dad@gmail.com",
+        "diaChi": "39 Duy Hung",
+        "IDSach": "01",
+        "tenSach": "Quản Lý Thư Viện",
+        "ngayMuon": "2025-05-20",
+        "ngayTra": "2025-05-23",
+        "trangThai": "Quá hạn",
+        "phat": 5000
+    }
+]
