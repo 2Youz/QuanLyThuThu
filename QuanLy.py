@@ -71,3 +71,31 @@ class MuonTraSach:
         self.ngayTra = data['ngayTra']
         self.trangThai = data['trangThai']
         self.phat = data['phat']
+class ThuThu: # Thủ thư quản lý thư viện
+    def __init__(self, maTT, tenTT, soDienthoai, email, diaChi, luong, calamViec):
+        self.maTT = maTT
+        self.tenTT = tenTT
+        self.soDienthoai = soDienthoai
+        self.email = email
+        self.diaChi = diaChi
+        self.luong = luong
+        self.calamViec = calamViec
+    def to_dict(self):
+        return {
+            'maTT': self.maTT,
+            'tenTT': self.tenTT,
+            'soDienthoai': self.soDienthoai,
+            'email': self.email,
+            'diaChi': self.diaChi,
+            'luong': self.luong,
+            'calamViec': self.calamViec
+        }
+    def from_dict(self, data):
+        self.maTT = data['maTT']
+        self.tenTT = data['tenTT']
+        self.soDienthoai = data['soDienthoai']
+        self.email = data['email']
+        self.diaChi = data['diaChi']
+        self.luong = data['luong']
+        self.calamViec = data['calamViec']
+        
