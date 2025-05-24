@@ -5,5 +5,19 @@
         "Author": "HUIT",
         "Category": "General",
         "Quantity": 198
+    },
+    {
+        "BookID": "BK0002",
+        "BookName": "Dictionarium Anamitico-Latinum et latino-Anamiticum primitus inceptum a Petro-Josepho Pigneaux de Behaine",
+        "Author": "Jean Louis Taberd",
+        "Category": "Chung",
+        "Quantity": 1
+    },
+    {
+        "BookID": "BK0003",
+        "BookName": "A Lexilogus of the English, Malay, and Chinese Languages, etc. [Based on a collection of English and Malay phrases by - North.]",
+        "Author": "Không rõ tác giả",
+        "Category": "Chung",
+        "Quantity": 1
     }
 ]
